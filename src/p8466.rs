@@ -19,7 +19,7 @@ fn solve() {
     }
 }
 
-fn check_string(str: &String) -> () {
+fn check_string(str: &str) {
     if (str.contains('D')) && (str.contains('X')) {
         println!("Yes");
         return;
